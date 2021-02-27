@@ -1,0 +1,11 @@
+{
+  "name": "toronto",
+  "version": "1.0.0",
+  "description": "fixet dug ",
+  "main": "index.js",
+  "scripts": {
+    "ls": "ls -la"
+  },
+  "author": "Denis",
+  "license": "ISC"
+}

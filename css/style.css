@@ -1,4 +1,12 @@
 /* font-family: 'Raleway', sans-serif;*/
+
+
+body{
+    overflow: scroll;
+    overscroll-behavior-y: scroll;
+}
+
+
 *,h1,h2,h3,h4,h5,h6,ul,p,a{
     margin: 0;
     padding: 0;
@@ -48,7 +56,7 @@ img{
     z-index: 2;
 }
 
-.header__inner-nav{
+.header__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,14 +133,13 @@ button{
 
 /* nav menu  */
 
-.header__nav-ul{
+.nav-list{
     display: flex;
-    justify-content: flex-end;
     margin: 0;
     padding: 0;
 }
 
-.header__nav-link{
+ .item-link{
     font-size: 17px;
     list-style-type: none;
     color: #fff;
@@ -142,25 +149,19 @@ button{
     border-bottom: 1px solid transparent;
     transition: .3s linear;
 
-}
+} 
 
-.header__nav-link:first-child{
-    margin-right: 0;
 
-}
-.header__nav-link:last-child{
-    margin-right: 0;
 
-}
-.header__nav-link:hover{
+.item-link:hover{
     border-bottom: 1px solid #fff;
     color: #d8d8d8;
     
 }
 
-.header__nav-link:last-child{
+.item-link:last-child{
     margin-right: 0;
-}
+} 
 
 /* section-top */
 .banner__inner{
@@ -179,7 +180,6 @@ button{
     font-size: 47px;
     font-weight: 700;
     line-height: 82px;
-    
     margin-top: 214px;
 }
 
